@@ -39,7 +39,7 @@ if __name__ == "__main__":
     try:
         K = int(input("Введите число K, которое >= 0: "))
         if K >= 0:
-            file = "test.txt"
+            file = "text.txt"
             print(f"-- Результат вычисления --")
             process_number(file, K)
         else:
